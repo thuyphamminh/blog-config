@@ -6,7 +6,7 @@ spring:
   datasource:
     url: jdbc:mysql://localhost:3306/ApplicationGatewayDB?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
     username: root
-    password: ENC(JdpXNb0mY4MQghTBYyzKobxDJj9boba1)
+    password: ENC(eSRI1A31j3XuBFtvWc5VF8WiNjQkkisr)
     driverClassName: com.mysql.cj.jdbc.Driver
   jpa:
     show-sql: true

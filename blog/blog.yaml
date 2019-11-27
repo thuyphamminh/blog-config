@@ -1,8 +1,6 @@
 example:
   property: "BLOG"
 spring:
-  application:
-    name: BlogMicroservices
   datasource:
     url: jdbc:mysql://localhost:3306/ApplicationGatewayDB?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
     username: root

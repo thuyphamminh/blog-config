@@ -1,0 +1,19 @@
+example:
+  property: "AUTHENTICATION"
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/ApplicationGatewayDB?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+    username: root
+    password: ENC(eSRI1A31j3XuBFtvWc5VF8WiNjQkkisr)
+    driverClassName: com.mysql.cj.jdbc.Driver
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+      naming-strategy: org.hibernate.cfg.ImprovedNamingStrategy
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+server:
+  port: 8091
+
